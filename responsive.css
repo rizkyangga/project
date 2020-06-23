@@ -1,0 +1,79 @@
+@media all and (max-width: 1000px) {
+  .header-left {
+  font-size: 30px;
+  }
+.header-right ul li a{
+  font-size: 16px;
+}
+  .top-wrapper .message-wrapper{
+    text-align:center;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  p, li {
+    font-size: 12px;
+  }
+  .message-wrapper h2{
+    font-size: 25px;
+  }
+  .closing-wrapper h3{
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  footer {
+    text-align: center;
+  }
+  .btn {
+    width: 80%;
+  }
+  .top-wrapper .message-wrapper {
+    text-align: center;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+  }
+  .lessons{
+  	display:flex;
+  	flex-direction:column;
+	align-items:center;
+	text-align:center;
+  }
+  .lesson {
+  	margin:0 auto;
+	width:80%;
+  }
+  .closing-wrapper{
+    float: none;
+    display:flex;
+  	flex-direction:column;
+	align-items:center;
+	text-align:center;
+  }
+  .ikonAlamat{
+    float: none;
+    width: 100%;
+	padding-top: 40px;
+	margin:0 auto;
+  }
+  .kontak{
+    float: none;
+  }
+}
