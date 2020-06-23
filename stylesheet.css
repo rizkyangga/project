@@ -1,0 +1,285 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif;
+  margin:0;
+}
+.container{
+  max-width:1170px;
+  width: 100%;
+  margin:0 auto;
+  padding:0 15px;
+}
+a {
+  text-decoration: none;
+}
+.clear {
+  clear: left;
+}
+
+/*CSS untuk header*/
+.header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(12, 36, 97,.5);
+  position :-webkit-fixed;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left h1 {
+  font-size: 30px;
+  padding: 0 2px;
+  color: #12CBC4;
+}
+
+.header-left span {
+  color: white ;
+}
+
+.header-left {
+  float: left;
+  margin-top: -5px;
+  margin-left: 50px;
+}
+.header-left h1 {
+  transition: all 1.5s;
+}
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right ul {
+  margin-right: 50px;
+  margin-top: 0;
+  padding: 0;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.header-right ul li {
+  list-style: none;
+  margin: 0;
+}
+
+.header-right ul li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+}
+.header-right ul:hover li a {
+  transform: scale (1);
+  opacity: 0.9;
+  filter: blur(2px);
+}
+
+.header-right ul li a:hover {
+  transform: scale (1.5);
+  opacity: 1;
+  filter: blur(0);
+    color: #12CBC4;
+}
+
+.menu-icon {
+  display:none;
+  float:right;
+  color:#ffffff;
+}
+
+/*CSS untuk bagian Introduction*/
+.top-wrapper{
+  padding:180px 0 100px 0;
+  background-image: url(https://www.brookdalecc.edu/wp-content/uploads/2014/09/computer-coding.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.top-wrapper span{
+  font-weight: bold;
+  color: #ff0000;
+}
+.top-wrapper span:hover{
+  color:#ffffff;
+}
+.top-wrapper mark{
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+.top-wrapper mark:hover{
+  opacity:1;
+  background-color:#ff0000;
+}
+.mau{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*CSS untuk bagian utama profil*/
+.lesson-wrapper {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: url(https://www.netclipart.com/pp/m/289-2890664_hexagon-background-png.png);
+  background-color: rgba(210, 218, 226,1.0);
+  text-align: center;
+}
+
+.headingProfil {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.headingProfil h1 {
+  font-weight: normal;
+}
+.lessons{
+  display:flex;
+  flex-wrap:wrap;
+}
+.lesson {
+  float: left;
+  width: 20%;
+  padding:20px;
+  flex:auto;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #1e272e;
+  background-color: rgba(128, 142, 155,0.5);
+}
+
+.card {
+  position: relative;
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+    background-color: rgba(128, 142, 155,0.5);
+}
+
+
+/*CSS untuk Bagian tambahan ajakan Bergabung*/
+.message-wrapper{
+  background-image: url(https://i.dlpng.com/static/png/233022_preview.png);
+  background-color: rgba(247, 247, 247, 1.0);
+  text-align: center;
+  padding:100px 15px;
+  margin:0 auto;
+}
+.heading h2{
+  color: #19345e;
+}
+.message{
+  padding: 15px 40px;
+  color:#000000;
+  background-color: rgba(52, 231, 228,1.0);
+  cursor: pointer;
+  box-shadow: 0 10px #19345e;
+  display:inline-block;
+  font-weight:bold;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+.message:hover{
+  color:#ffffff;
+  background-color: #19345e;
+  box-shadow: 0 10px #add8e6;
+}
+.message:active{
+  position: relative;
+  top:7px;
+  box-shadow: none;
+}
+
+/*CSS untuk Bagian tambahan penutup*/
+.closing-wrapper{
+  background-color: rgba(7, 153, 146,0.8);
+  padding:50px 15px;
+  margin:0 auto;
+  overflow: hidden;
+}
+.ikonAlamat{
+  display: inline-block;
+  float: right;
+}
+.rute{
+  padding-top: 15px;
+  text-align: center;
+}
+.daftarRute li{
+  list-style: none;
+}
+.ad{
+  font-weight: bold;
+}
+.icon{
+  position:relative;
+  padding-bottom: 20px;
+}
+.fa-map-marker{
+  position: absolute;
+  top:0%;
+  left:50%;
+}
+
+.kontak{
+  float: left;
+}
+.kontak h3, p{
+  margin:0;
+  padding:5px 0;
+}
+.tombolKirim{
+  background-color:#dee7ec;
+  color:#889eab;
+  display: inline-block;
+}
+.tombolKirim:hover{
+  background-color:#19345e;
+  color:#889eab;
+  display: inline-block;
+}
+.tulis1{
+  width:400px;
+  border:1px solid #dee7ec;
+}
+
+
+  footer h2 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  footer span {
+    font-family: inherit;
+    color: white;
+  }
+
+  footer {
+    background-color: rgba(12, 36, 97,1.0);
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
